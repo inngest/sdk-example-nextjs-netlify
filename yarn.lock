@@ -1024,10 +1024,10 @@ inherits@2:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-inngest@^0.4.0-beta.1:
-  version "0.4.0-beta.1"
-  resolved "https://registry.yarnpkg.com/inngest/-/inngest-0.4.0-beta.1.tgz#f5852fbd77985f54e2f73e6dad13646273d7f147"
-  integrity sha512-LvnuNq5G8HddjDGYuHxB4fTuSw+KTsxnUK1tjOfyYPf2chRJfRpzIwWoPbul8bWJHJbXuonnfSO4/4aUrJP8Eg==
+inngest@^0.4.0-beta.2:
+  version "0.4.0-beta.2"
+  resolved "https://registry.yarnpkg.com/inngest/-/inngest-0.4.0-beta.2.tgz#48a42ad635c12eddd2742614803a76e04cf0c9a7"
+  integrity sha512-rsl4uG5SRzwf58s9R5A6OuntxF4OOwR4s1lgw2XBjL/v+spFL0YMHmUVxzDhju/Cs9ILc+FL09jxD10zwJqF/Q==
   dependencies:
     axios "^0.27.2"
     zod "^3.19.1"
