@@ -7,6 +7,3 @@
 # Use the current plugin in builds for testing and debugging.
 # Local path to the plugin.
 package = "./netlify-plugin-inngest"
-  # Plugin configuration
-  [plugins.inputs]
-  url = "https://www.example.com"

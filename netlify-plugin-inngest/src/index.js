@@ -69,7 +69,7 @@ export const onSuccess = async function ({
   let url
 
   try {
-    url = new URL(inputs.url)
+    url = new URL(process.env.URL)
   } catch (err) {
     return void build.failPlugin(
       'Invalid or no URL found as Inngest plugin input; please specify a URL to access your functions once deployed',
