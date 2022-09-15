@@ -1025,9 +1025,9 @@ inherits@2:
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 inngest@^0.4.0-beta.2:
-  version "0.4.0-beta.2"
-  resolved "https://registry.yarnpkg.com/inngest/-/inngest-0.4.0-beta.2.tgz#48a42ad635c12eddd2742614803a76e04cf0c9a7"
-  integrity sha512-rsl4uG5SRzwf58s9R5A6OuntxF4OOwR4s1lgw2XBjL/v+spFL0YMHmUVxzDhju/Cs9ILc+FL09jxD10zwJqF/Q==
+  version "0.4.0-beta.3"
+  resolved "https://registry.yarnpkg.com/inngest/-/inngest-0.4.0-beta.3.tgz#3ec89aa4853e34388ae5165f6ed031b2f85c00fc"
+  integrity sha512-xWXPoSRLerAJMHu9NOSx+LdrlE54Hg7VPwemW945QciqKcZynWWvOhS4W1qEoEK1wU+hjHngcwtdJCGMtQyGdQ==
   dependencies:
     axios "^0.27.2"
     zod "^3.19.1"
