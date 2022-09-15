@@ -9,7 +9,7 @@
 package = "./netlify-plugin-inngest"
   # Plugin configuration
   [plugins.inputs]
-  foo = "bar"
+  url = "https://www.example.com"
 
 [build]
 # Dummy build command
