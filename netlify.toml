@@ -1,9 +1,2 @@
-##############################
-# Netlify configuration file #
-##############################
-
-# List of Build plugins
 [[plugins]]
-# Use the current plugin in builds for testing and debugging.
-# Local path to the plugin.
-package = "./netlify-plugin-inngest"
+package = "netlify-plugin-inngest"
