@@ -20,6 +20,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
+    "netlify-plugin-inngest": "^0.0.1",
     "typescript": "4.8.3"
   }
 }
