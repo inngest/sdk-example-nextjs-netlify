@@ -1,9 +1,9 @@
 import { Inngest } from "inngest";
 // we can make this `inngest/next` or directly expose via `nextRegister` etc
-import { register } from "inngest/dist/handlers/next";
+import { serve } from "inngest/next";
 import { Events } from "../../__generated__/inngest";
 
-const inngest = new Inngest<Events>("My App", "API_KEY");
+const inngest = new Inngest<Events>({ name: "My App" });
 
 const foo = inngest.createFunction(
   "Hello---my _=👍 :) heere we gooo!",
@@ -19,6 +19,7 @@ const bar = inngest.createFunction("Bar", "demo/event.blah", ({ event }) => ({
   data: event.data,
 }));
 
-console.log("foo:", foo.id, bar.id);
-
-export default register(inngest, "SIGNING_KEY", [foo, bar]);
+export default serve(inngest, process.env.INNGEST_SIGNING_KEY as string, [
+  foo,
+  bar,
+]);

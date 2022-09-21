@@ -1,5 +1,0 @@
-name: 'netlify-plugin-inngest'
-inputs:
-  - name: url
-    description: The URL of your site, used to specify a particular URL you wish to use.
-    required: false
