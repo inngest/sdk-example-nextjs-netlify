@@ -1024,10 +1024,10 @@ inherits@2:
   resolved "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-inngest@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/inngest/-/inngest-0.4.0.tgz#238cffe494aa21272ba1d584d432921c531e7cf1"
-  integrity sha512-CrE/q4suTZbYnwTZWRtAhGpMZQBlApUbJvflo+1VkOnodSn+/Al2YhKv82MrXS/7vbfCWlZANxaTvEmBxDGaaw==
+inngest@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/inngest/-/inngest-0.4.1.tgz#38a4e5bb06b0c8b1b1e08f79b09b5c548e6984fd"
+  integrity sha512-FpNr4RuVsD+PIPpC+aF+0cWuDotnST8vJnqglwmCMZ0Mmh/qXVcR2Nqyc9osuDU/iR5+eGY8UC6dxDYwHO5zjA==
   dependencies:
     axios "^0.27.2"
     zod "^3.19.1"
