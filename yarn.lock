@@ -1295,10 +1295,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-netlify-plugin-inngest@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/netlify-plugin-inngest/-/netlify-plugin-inngest-0.0.1.tgz"
-  integrity sha512-m4uKGINe9WID2pD87k1VVNvjynCFH91WhE31Npa41nApe760iH3AubG1vymH/404gBpuTrxuMdgu6q7sqG9DLQ==
+netlify-plugin-inngest@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-inngest/-/netlify-plugin-inngest-1.0.0.tgz#510fb08357e8a42f9235b4f0b2bb0b0c5274ae3a"
+  integrity sha512-4aC2WZdQ+xyF6FYjEba/b0Y7pKtQ2XVjkiTiTINxHFj/5lQqATd8+J1eN320w+QjM98siatO4urZwzB4U/OIDQ==
 
 next@12.3.0:
   version "12.3.0"
