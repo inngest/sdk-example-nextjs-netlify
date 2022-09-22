@@ -1,5 +1,4 @@
 import { Inngest } from "inngest";
-// we can make this `inngest/next` or directly expose via `nextRegister` etc
 import { serve } from "inngest/next";
 import { Events } from "../../__generated__/inngest";
 
@@ -14,7 +13,7 @@ const foo = inngest.createFunction(
   })
 );
 
-const bar = inngest.createFunction("Bar", "demo/event.blah", ({ event }) => ({
+const bar = inngest.createFunction("Bar", "demo/event.sent", ({ event }) => ({
   message: "I ran bar!",
   data: event.data,
 }));
