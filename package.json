@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "npx inngest-cli types ts",
+    "predev": "echo 'Run `npx inngest-cli types ts` to generate Inngest types.'",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
