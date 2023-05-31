@@ -1,4 +1,4 @@
 import { serve } from "inngest/next";
-import fns from "../../inngest";
+import { inngest, functions } from "../../inngest";
 
-export default serve("My Next.js Netlify App", fns);
+export default serve(inngest, fns);
